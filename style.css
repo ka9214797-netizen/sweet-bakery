@@ -1,0 +1,24 @@
+.btnn{
+    background-color: #5fcac7 !important;
+    color: white !important;
+    border-radius: 30px;
+}
+.carousel-caption {
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  right: auto;
+  bottom: auto;
+  text-align: left;
+  max-width: none;  
+}
+
+.carousel-caption h1 {
+  white-space: nowrap;
+}
+
+.carousel-caption h2 {
+  max-width: 420px;
+}
+
+background-color: rgb(95, 202, 199);

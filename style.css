@@ -1,4 +1,4 @@
-.btnn{
+/* .btnn{
     background-color: #5fcac7 !important;
     color: white !important;
     border-radius: 30px;
@@ -20,5 +20,112 @@
 .carousel-caption h2 {
   max-width: 420px;
 }
-
+.solo{
 background-color: rgb(95, 202, 199);
+}
+.green{
+  color: white !important;
+  background-color: rgb(95, 202, 199);
+  padding: 10px;
+  border-radius: 25px;
+  border:  2px solid white;
+
+}
+.magic-section {
+  min-height: 100vh;
+  width: 100%;
+  background:
+    linear-gradient(rgba(95, 202, 199, 0.9), rgba(95, 202, 199, 0.9)),
+    url("./images/macarons-bg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+}
+.magic-box {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 80px 40px;
+  color: white;
+}
+.magic-box .icon {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.magic-box h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.magic-box p {
+  max-width: 520px;
+  margin: 0 auto 30px;
+  font-size: 16px;
+} */
+
+
+.btnn {
+    background-color: #5fcac7 !important;
+    color: white !important;
+    border-radius: 30px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    right: auto;
+    bottom: auto;
+    text-align: left;
+    max-width: none;
+}
+
+.carousel-caption h1 {
+    white-space: nowrap;
+}
+
+.carousel-caption h2 {
+    max-width: 420px;
+}
+
+.magic-section {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(95, 202, 199, 0.9), rgba(95, 202, 199, 0.9)),
+        url("./images/macarons-bg.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.magic-box {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 80px 40px;
+    color: white;
+}
+
+.magic-box .icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.magic-box h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.magic-box p {
+    max-width: 520px;
+    margin: 0 auto 30px;
+    font-size: 16px;
+}
+.pink{
+  color: #ff91a4;
+}
+.back{
+  background-color: #eeeeee !important;
+  background-image: url(./images/bakery24-1-1200x800.jpg);
+}
+.hulk{
+  border-radius: 300px;
+}

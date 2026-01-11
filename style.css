@@ -113,3 +113,54 @@ background-image: url(./images/bakery26-1200x800.jpg) ;
 .pic1{
   border-radius: 70px;
 }
+.bakerr{
+  color: gray !important;
+}
+.FAQ{
+  background-color: rgb(243, 242, 244) !important;
+}
+.para{
+  color: #5fcac7;
+}
+.table-faq-wrapper {
+  display: flex;
+  gap: 40px;           
+  align-items: flex-start;
+}
+
+.table-section {
+  flex: 3;
+}
+
+.faq-section {
+  flex: 1;             
+  padding: 25px;
+  background: #f8f9fa;
+  text-align: center;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 16px 20px;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 992px) {
+  .table-faq-wrapper {
+    flex-direction: column;
+  }
+}
+.foot{
+  background-color: #2a2a2a !important;
+}
+.colo{
+background-image: url(./images/bakery3-2-1200x800.jpg) !important;
+}
+.light{
+  color: white;
+}
